@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Avanindra's Porto</title>
+  </head>
+  <style>
+    body {
+      margin: 0;
+      width: 1440px;
+      height: 5750px;
+      background: #202020;
+    }
+    .navBar {
+      width: 1440px;
+      height: 80px;
+      flex-shrink: 0;
+      background: rgba(50, 50, 50, 0.7);
+      backdrop-filter: blur(10px);
+      top: 0;
+      bottom: 0;
+      position: sticky;
+      display: flex;
+      flex-direction: row-reverse;
+      font-weight: 500;
+    }
+
+    .Home {
+      color: #dedede;
+      font-family: "Manrope", sans-serif;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      letter-spacing: -0.5px;
+      height: 50px;
+      width: 25px;
+      font-weight: 500;
+      padding-top: 30px;
+    }
+    .Work {
+      color: #dedede;
+      font-family: "Manrope", sans-serif;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      letter-spacing: -0.5px;
+      height: 43px;
+      width: 25px;
+      font-weight: 500;
+      font-size: 18px;
+      padding-top: 30px;
+    }
+    .Contact {
+      color: #dedede;
+      font-family: "Manrope", sans-serif;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      letter-spacing: -0.5px;
+      height: 69px;
+      width: 25px;
+      font-weight: 500;
+      font-size: 18px;
+      padding-top: 30px;
+    }
+
+    .foto {
+      position: absolute;
+      padding-left: 838px;
+      padding-top: 129px;
+      height: 400px;
+      width: 400px;
+    }
+    .button {
+      height: 64px;
+      width: 400px;
+      background-color: #959595;
+      margin-left: 96px;
+      margin-top: 48px;
+      border-radius: 9999px;
+      cursor: pointer;
+    }
+
+    .email {
+      font-family: Manrope, sans-serif;
+      width: fit-content;
+      font-weight: 500;
+      color: #ffffff;
+      font-size: 24px;
+      letter-spacing: 0;
+      line-height: normal;
+      padding: 20px 70px;
+      height: 25px;
+      width: 161px;
+    }
+
+    .parent {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      grid-template-rows: repeat(5, 1fr);
+      grid-column-gap: 32px;
+      grid-row-gap: 32px;
+      padding-top: 0;
+    }
+
+    .div1 {
+      grid-area: 2 / 2 / 3 / 3;
+      background-color: #ffffff;
+      height: 400px;
+      width: 400px;
+    }
+    .div2 {
+      grid-area: 2 / 3 / 3 / 4;
+      background-color: #ffffff;
+      height: 400px;
+      width: 400px;
+    }
+    .div3 {
+      grid-area: 2 / 4 / 3 / 5;
+      background-color: #ffffff;
+      height: 400px;
+      width: 400px;
+    }
+    .div4 {
+      grid-area: 3 / 2 / 4 / 3;
+      background-color: #ffffff;
+      height: 400px;
+      width: 400px;
+    }
+    .div5 {
+      grid-area: 3 / 3 / 4 / 4;
+      background-color: #ffffff;
+      height: 400px;
+      width: 400px;
+    }
+    .div6 {
+      grid-area: 3 / 4 / 4 / 5;
+      background-color: #ffffff;
+      height: 400px;
+      width: 400px;
+    }
+  </style>
+  <body>
+    <div class="navBar">
+      <div class="Contact" style="padding-right: 109px">Contact</div>
+      <div class="Work" style="padding-right: 63px">Work</div>
+      <div class="Home" style="padding-right: 56px">Home</div>
+    </div>
+
+    <div
+      style="
+        width: 100%;
+        color: #dedede;
+        font-size: 64px;
+        font-family: Manrope, sans-serif;
+        font-weight: 600;
+        line-height: 70px;
+        word-wrap: break-word;
+        margin-top: 129px;
+        margin-left: 96px;
+        height: 210px;
+        width: 824px;
+      "
+    >
+      Hi, I am Avanindra <br />A Designer <br />based in Djakarta.
+    </div>
+
+    <div
+      style="
+        width: 824px;
+        color: #959595;
+        font-size: 24px;
+        font-family: Manrope, sans-serif;
+        font-weight: 300;
+        line-height: 36px;
+        word-wrap: break-word;
+        margin-left: 96px;
+        margin-top: 24px;
+      "
+    >
+      I help businesses and companies reach <br />their goals by designing
+      user-centric digital <br />products & interactive experiences.
+    </div>
+    <div class="button"><div class="email">Aavanindra@gmail.com</div></div>
+
+    <div
+      style="
+        color: #dededeaa;
+        font-size: 32px;
+        font-family: Manrope, sans-serif;
+        font-weight: 200;
+        line-height: 70px;
+        margin-top: 128px;
+      "
+    >
+      Featured Work
+    </div>
+    <div class="parent">
+      <div class="div1">test</div>
+      <div class="div2"></div>
+      <div class="div3"></div>
+      <div class="div4"></div>
+      <div class="div5"></div>
+      <div class="div6"></div>
+    </div>
+  </body>
+</html>

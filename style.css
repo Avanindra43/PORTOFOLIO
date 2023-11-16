@@ -1,0 +1,462 @@
+.desktop {
+  background-color: #202020;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.desktop .div {
+  background-color: #202020;
+  width: 1440px;
+  height: 5750px;
+  position: relative;
+}
+
+.desktop .overlap {
+  position: absolute;
+  width: 1142px;
+  height: 401px;
+  top: 208px;
+  left: 96px;
+}
+
+.desktop .unsplash {
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  top: 1px;
+  left: 742px;
+}
+
+.desktop .hi-i-am-your-name-a {
+  position: absolute;
+  width: 824px;
+  top: 0;
+  left: 0;
+  font-family: "Manrope-Bold", Helvetica;
+  font-weight: 700;
+  color: #dedede;
+  font-size: 64px;
+  letter-spacing: -0.5px;
+  line-height: 70px;
+}
+
+.desktop .i-help-businesses {
+  position: absolute;
+  width: 824px;
+  top: 234px;
+  left: 0;
+  font-family: "Manrope-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #949494;
+  font-size: 24px;
+  letter-spacing: -0.5px;
+  line-height: 36px;
+}
+
+.desktop .overlap-group {
+  position: absolute;
+  width: 612px;
+  height: 888px;
+  top: 964px;
+  left: 96px;
+  background-image: url(./img/unsplash-mxpimiz7kco.svg);
+  background-size: 100% 100%;
+}
+
+.desktop .text-wrapper {
+  position: absolute;
+  top: 415px;
+  left: 217px;
+  font-family: "Manrope-Bold", Helvetica;
+  font-weight: 700;
+  color: #dedede;
+  font-size: 40px;
+  letter-spacing: -0.5px;
+  line-height: normal;
+}
+
+.desktop .unsplash-pqzrfbhdr {
+  position: absolute;
+  width: 612px;
+  height: 888px;
+  top: 1876px;
+  left: 96px;
+}
+
+.desktop .unsplash-g {
+  position: absolute;
+  width: 612px;
+  height: 888px;
+  top: 1102px;
+  left: 732px;
+}
+
+.desktop .unsplash-x-hpilsdkek {
+  position: absolute;
+  width: 612px;
+  height: 888px;
+  top: 2014px;
+  left: 732px;
+}
+
+.desktop .text-wrapper-2 {
+  position: absolute;
+  top: 3141px;
+  left: 558px;
+  font-family: "Manrope-Bold", Helvetica;
+  font-weight: 700;
+  color: #dedede;
+  font-size: 36px;
+  text-align: center;
+  letter-spacing: -0.5px;
+  line-height: normal;
+}
+
+.desktop .text-wrapper-3 {
+  position: absolute;
+  top: 4335px;
+  left: 570px;
+  font-family: "Manrope-Bold", Helvetica;
+  font-weight: 700;
+  color: #dedede;
+  font-size: 36px;
+  text-align: center;
+  letter-spacing: -0.5px;
+  line-height: normal;
+}
+
+.desktop .unsplash-hpecxwojjjc {
+  position: absolute;
+  width: 400px;
+  height: 408px;
+  top: 3688px;
+  left: 96px;
+}
+
+.desktop .unsplash-oflnra {
+  position: absolute;
+  width: 400px;
+  height: 408px;
+  top: 3256px;
+  left: 96px;
+}
+
+.desktop .rectangle {
+  position: absolute;
+  width: 400px;
+  height: 560px;
+  top: 4451px;
+  left: 96px;
+}
+
+.desktop .img {
+  left: 520px;
+  position: absolute;
+  width: 400px;
+  height: 560px;
+  top: 4451px;
+}
+
+.desktop .rectangle-2 {
+  left: 944px;
+  position: absolute;
+  width: 400px;
+  height: 560px;
+  top: 4451px;
+}
+
+.desktop .unsplash-qarndjoase {
+  position: absolute;
+  width: 400px;
+  height: 408px;
+  top: 3688px;
+  left: 944px;
+}
+
+.desktop .unsplash-coslrsrvhy {
+  position: absolute;
+  width: 400px;
+  height: 408px;
+  top: 3688px;
+  left: 520px;
+}
+
+.desktop .unsplash-pptw-rtkvxq {
+  position: absolute;
+  width: 400px;
+  height: 408px;
+  top: 3256px;
+  left: 944px;
+}
+
+.desktop .unsplash-glel-rswqqm {
+  position: absolute;
+  width: 400px;
+  height: 408px;
+  top: 3256px;
+  left: 520px;
+}
+
+.desktop .featured {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 32px;
+  padding: 8px;
+  position: absolute;
+  top: 836px;
+  left: 96px;
+}
+
+.desktop .arrow {
+  position: relative;
+  width: 14.73px;
+  height: 33px;
+  margin-bottom: -1px;
+  margin-left: -7.36px;
+}
+
+.desktop .featured-work {
+  position: relative;
+  width: fit-content;
+  opacity: 0.7;
+  font-family: "Manrope-Bold", Helvetica;
+  font-weight: 700;
+  color: #dedede;
+  font-size: 16px;
+  letter-spacing: 1.5px;
+  line-height: 16px;
+  white-space: nowrap;
+}
+
+.desktop .text-wrapper-4 {
+  position: absolute;
+  top: 5250px;
+  left: 620px;
+  font-family: "Manrope-Bold", Helvetica;
+  font-weight: 700;
+  color: #dedede;
+  font-size: 36px;
+  text-align: center;
+  letter-spacing: -0.5px;
+  line-height: normal;
+}
+
+.desktop .if-you-are-looking {
+  position: absolute;
+  top: 5323px;
+  left: 480px;
+  font-family: "Manrope-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #949494;
+  font-size: 24px;
+  text-align: center;
+  letter-spacing: -0.5px;
+  line-height: 38px;
+}
+
+.desktop .btn {
+  display: flex;
+  width: 400px;
+  height: 64px;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  padding: 16px 48px;
+  position: absolute;
+  top: 5446px;
+  left: 520px;
+  background-color: #9d9d9d;
+  border-radius: 4px;
+  all: unset;
+  box-sizing: border-box;
+}
+
+.desktop .group {
+  position: relative;
+  width: 22.57px;
+  height: 18px;
+}
+
+.desktop .hi-virajaher-com {
+  position: relative;
+  width: fit-content;
+  font-family: "Manrope-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop .rectangle-3 {
+  position: absolute;
+  width: 1440px;
+  height: 1px;
+  top: 5629px;
+  left: 0;
+  background-color: #696969;
+}
+
+.desktop .made-by-your-name {
+  position: absolute;
+  top: 5677px;
+  left: 96px;
+  font-family: "Manrope-SemiBold", Helvetica;
+  font-weight: 600;
+  color: transparent;
+  font-size: 16px;
+  letter-spacing: -0.5px;
+  line-height: 36px;
+  white-space: nowrap;
+}
+
+.desktop .span {
+  color: #949494;
+}
+
+.desktop .text-wrapper-5 {
+  color: #ebebeb;
+}
+
+.desktop .icons {
+  position: absolute;
+  width: 293px;
+  height: 22px;
+  top: 5679px;
+  left: 1050px;
+}
+
+.desktop .button {
+  display: flex;
+  width: 400px;
+  height: 64px;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  padding: 16px 48px;
+  position: absolute;
+  top: 615px;
+  left: 96px;
+  background-color: #9d9d9d;
+  border-radius: 4px;
+  all: unset;
+  box-sizing: border-box;
+}
+
+.desktop .rectangle-4 {
+  position: fixed;
+  width: 1440px;
+  height: 80px;
+  top: 0;
+  left: 0;
+  background-color: #313131b2;
+  backdrop-filter: blur(20px) brightness(100%);
+  -webkit-backdrop-filter: blur(20px) brightness(100%);
+}
+
+.desktop .text-wrapper-6 {
+  position: fixed;
+  top: 29px;
+  left: 1050px;
+  font-family: "Manrope-Bold", Helvetica;
+  font-weight: 700;
+  color: #dedede;
+  font-size: 18px;
+  letter-spacing: -0.5px;
+  line-height: normal;
+}
+
+.desktop .text-wrapper-7 {
+  position: fixed;
+  top: 29px;
+  left: 1156px;
+  font-family: "Manrope-Bold", Helvetica;
+  font-weight: 700;
+  color: #dedede;
+  font-size: 18px;
+  letter-spacing: -0.5px;
+  line-height: normal;
+}
+
+.desktop .text-wrapper-8 {
+  position: fixed;
+  top: 29px;
+  left: 1262px;
+  font-family: "Manrope-Bold", Helvetica;
+  font-weight: 700;
+  color: #dedede;
+  font-size: 18px;
+  letter-spacing: -0.5px;
+  line-height: normal;
+}
+
+.desktop .logos {
+  position: fixed;
+  width: 138px;
+  height: 41px;
+  top: 20px;
+  left: 96px;
+}
+
+.desktop .text-wrapper-9 {
+  position: absolute;
+  top: 7px;
+  left: 40px;
+  font-family: "Manrope-ExtraBold", Helvetica;
+  font-weight: 800;
+  color: #dedede;
+  font-size: 20px;
+  letter-spacing: -0.5px;
+  line-height: normal;
+}
+
+.desktop .group-wrapper {
+  position: absolute;
+  width: 29px;
+  height: 41px;
+  top: 0;
+  left: 0;
+}
+
+.desktop .overlap-group-wrapper {
+  width: 33px;
+  height: 41px;
+}
+
+.desktop .overlap-group-2 {
+  position: relative;
+  width: 29px;
+  height: 41px;
+}
+
+.desktop .text-wrapper-10 {
+  position: absolute;
+  width: 23px;
+  top: 9px;
+  left: 0;
+  font-family: "THICCCBOI-Bold", Helvetica;
+  font-weight: 700;
+  color: #dedede;
+  font-size: 35.4px;
+  letter-spacing: -0.74px;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.desktop .text-wrapper-11 {
+  position: absolute;
+  width: 23px;
+  top: 0;
+  left: 6px;
+  transform: rotate(-180deg);
+  font-family: "THICCCBOI-Bold", Helvetica;
+  font-weight: 700;
+  color: #dedede;
+  font-size: 35.4px;
+  letter-spacing: -0.74px;
+  line-height: normal;
+  white-space: nowrap;
+}
