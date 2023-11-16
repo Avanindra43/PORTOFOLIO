@@ -24,6 +24,7 @@
       display: flex;
       flex-direction: row-reverse;
       font-weight: 500;
+      z-index: 1;
     }
 
     .Home {
@@ -104,7 +105,6 @@
       grid-template-rows: repeat(5, 1fr);
       grid-column-gap: 32px;
       grid-row-gap: 32px;
-      padding-top: 0;
     }
 
     .div1 {
@@ -143,6 +143,11 @@
       height: 400px;
       width: 400px;
     }
+
+    #Hero {
+      display: flex;
+      flex-direction: row;
+    }
   </style>
   <body>
     <div class="navBar">
@@ -150,25 +155,47 @@
       <div class="Work" style="padding-right: 63px">Work</div>
       <div class="Home" style="padding-right: 56px">Home</div>
     </div>
+    <div id="Hero">
+      <div
+        style="
+          width: 100%;
+          color: #dedede;
+          font-size: 64px;
+          font-family: Manrope, sans-serif;
+          font-weight: 600;
+          line-height: 70px;
+          word-wrap: break-word;
+          margin-top: 129px;
+          margin-left: 96px;
+          height: 210px;
+          width: 824px;
+        "
+      >
+        Hi, I am Avanindra <br />A Designer <br />based in Djakarta.
+      </div>
 
-    <div
-      style="
-        width: 100%;
-        color: #dedede;
-        font-size: 64px;
-        font-family: Manrope, sans-serif;
-        font-weight: 600;
-        line-height: 70px;
-        word-wrap: break-word;
-        margin-top: 129px;
-        margin-left: 96px;
-        height: 210px;
-        width: 824px;
-      "
-    >
-      Hi, I am Avanindra <br />A Designer <br />based in Djakarta.
+      <div
+        id="foto"
+        style="
+          height: 400px;
+          width: 400px;
+          margin-right: 202px;
+          position: absolute;
+          margin-left: 838px;
+          margin-top: 129px;
+          background-color: #ffffff;
+          border-radius: 9999px;
+        "
+      >
+        <img
+          style="border-radius: 9999pc"
+          height="400px;"
+          width="400px;"
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZGuehfMRLpDPXWJtUaWtd2zI1goaAHbo3EBMECj4&s"
+          alt=""
+        />
+      </div>
     </div>
-
     <div
       style="
         width: 824px;
@@ -185,6 +212,7 @@
       I help businesses and companies reach <br />their goals by designing
       user-centric digital <br />products & interactive experiences.
     </div>
+
     <div class="button"><div class="email">Aavanindra@gmail.com</div></div>
 
     <div
@@ -195,6 +223,7 @@
         font-weight: 200;
         line-height: 70px;
         margin-top: 128px;
+        text-align: center;
       "
     >
       Featured Work
